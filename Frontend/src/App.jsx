@@ -26,9 +26,10 @@ prism.highlightAll()
 },[])
   
   async function reviewCode() {
-   const response= await  axios.post('https://ai-code-analyzer-rvwl.onrender.com/ai/get-review',{code})
+   const response= await  axios.post('https://ai-code-analyzer-4s9g.onrender.com/ai/get-review',{code})
   setReview(response.data)
 }
+  // https://ai-code-analyzer-4s9g.onrender.com/
 // http://localhost:3000/ai/get-review
 
   return (
